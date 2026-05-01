@@ -307,6 +307,7 @@ export default function PrivacyPolicyPage() {
           <div className="flex gap-6">
             <Link href="/" className="text-slate-600 hover:text-slate-400 text-sm transition-colors">Beranda</Link>
             <Link href="/privacy-policy" className="text-brand-400 text-sm">Privacy Policy</Link>
+            <Link href="/delete-account" className="text-slate-600 hover:text-slate-400 text-sm transition-colors">Hapus Akun</Link>
           </div>
         </div>
       </footer>
