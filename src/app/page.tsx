@@ -7,6 +7,7 @@ const NAV_LINKS = [
   { label: 'AI Scan', href: '#ai' },
   { label: 'Harga', href: '#harga' },
   { label: 'Privacy Policy', href: '/privacy-policy' },
+  { label: 'Hapus Akun', href: '/delete-account' },
 ]
 
 const FEATURES = [
@@ -419,12 +420,12 @@ export default function HomePage() {
               <div>
                 <p className="text-white font-semibold text-sm mb-4">Legal</p>
                 <ul className="space-y-3">
-                  {[['Privacy Policy', '/privacy-policy'], ['Syarat Penggunaan', '/terms']].map(([l, h]) => (
+                  {[['Privacy Policy', '/privacy-policy'], ['Hapus Akun', '/delete-account'], ['Syarat Penggunaan', '/terms']].map(([l, h]) => (
                     <li key={l}><Link href={h} className="text-slate-500 text-sm hover:text-white transition-colors">{l}</Link></li>
                   ))}
                 </ul>
               </div>
-            </div>
+            </div>  
           </div>
           <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-600 text-sm">© 2025 SaldoTrack. All rights reserved.</p>
